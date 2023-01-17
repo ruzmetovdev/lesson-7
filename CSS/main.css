@@ -1,0 +1,136 @@
+@import "./common.css";
+@import "./heder.css";
+@import "./footer.css";
+
+main {
+  background: #e5e5e5;
+}
+.blok {
+  display: flex;
+  gap: 32px;
+}
+
+.card {
+  order: 1;
+  padding: 0px 34px 0px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 26px;
+  font-family: "Roboto-bold", sans-serif;
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin: 176px 0px 32px;
+  width: 31%;
+  height: 189px;
+  background: #1391ce;
+  box-shadow: 15px 10px 15px rgb(31 100 133 / 10%);
+  border-radius: 8px;
+}
+
+.sar {
+  display: flex;
+  justify-content: center;
+}
+
+.sar h3 {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 121.3%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.01em;
+  margin-top: 65px;
+  color: #1391ce;
+}
+
+.line {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.chiz {
+  width: 160px;
+  height: 8px;
+  left: 639px;
+  top: 1174.83px;
+  margin-top: 16px;
+  background: #f7ba0e;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.boll {
+  width: 45%;
+}
+
+.boll img {
+  margin: 60px 0px 100px;
+  width: 500px;
+  box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.boll h4 {
+  margin: 60px 0px 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 134.3%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #25468a;
+}
+
+.boll h1 {
+  margin: 60px 0px 8px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 134.3%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.01em;
+  color: #1391ce;
+}
+.boll p {
+  margin: 60px 0px 8px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 134.3%;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  color: #4f4f4f;
+}
+
+.boll h5 {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 134.3%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.02em;
+    color: #1391ce;
+}
+
+.list li {
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 134.3%;
+    letter-spacing: 0.02em;
+    color: #4f4f4f;
+}
+
+
+.list {
+    display: inline-block;
+    list-style-image: url(../IMAGES/Vector.png);
+    font-weight: 400;
+}
